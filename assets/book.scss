@@ -3,6 +3,7 @@
 @import "markdown";
 @import "shortcode";
 @import "utils";
+@import "syntax";
 
 html {
   font-size: $font-size-base;
@@ -95,6 +96,7 @@ ul.pagination {
 }
 
 .book-menu {
+  background-color: $menu-background;
   flex: 0 0 $menu-width;
   font-size: $font-size-14;
 
@@ -134,6 +136,7 @@ ul.pagination {
 }
 
 .book-toc {
+  background-color: $toc-background;
   flex: 0 0 $toc-width;
   font-size: $font-size-12;
 

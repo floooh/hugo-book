@@ -25,16 +25,21 @@ $color-link: #3dbb87;
 $color-visited-link: #3dbb87;
 $color-dark-link: #3dbb87;
 
+
 $body-background: #292d3e;
-$body-font-color: $gray-400;
+$body-font-color: $gray-200;
 $body-font-weight: 400;
 $body-title-color: #3ddb87;
 
 $body-min-width: 20rem;
 $container-max-width: 80rem;
 
+$menu-background: darken($body-background, 5%);
+$toc-background: $menu-background;
+$block-background: $menu-background;
+
 $header-height: 3.5rem;
-$menu-width: 16rem;
+$menu-width: 10rem;
 $toc-width: 14rem;
 
 $sm-breakpoint: $menu-width + $body-min-width + 5;
