@@ -23,7 +23,7 @@ $black: #000;
 
 $color-link: #3dbb87;
 $color-visited-link: #3dbb87;
-$color-dark-link: #3dbb87;
+$color-dark-link: darken($color-link, 10%);
 
 
 $body-background: #292d3e;
@@ -39,7 +39,7 @@ $toc-background: $menu-background;
 $block-background: $menu-background;
 
 $header-height: 3.5rem;
-$menu-width: 10rem;
+$menu-width: 11rem;
 $toc-width: 14rem;
 
 $sm-breakpoint: $menu-width + $body-min-width + 5;
